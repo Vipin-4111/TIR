@@ -1,0 +1,12 @@
+export const eventCategories = [
+  'All', 'Movement & Yoga', 'Workshops & Training', 'Music & Sound', 'Food & Gathering', 'Pop-ups & Markets', 'Community & Connection'
+];
+
+export const featuredEvents = [
+  { id: 'event-1', title: 'The Kinesthetic Body', category: 'Movement & Yoga', date: '24–26 OCT 2026', time: '09:30–14:00', host: 'Sarah Sen', price: '₹8,500', image: 'https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&w=1600&q=88', description: 'A three-day movement study in floorwork, gravity, momentum and heightened physical listening.' },
+  { id: 'event-2', title: 'Embodied Voice Lab', category: 'Workshops & Training', date: '02 NOV 2026', time: '16:00–21:00', host: 'Kabir Mehta & Ensemble', price: '₹3,800', image: 'https://images.unsplash.com/photo-1514306191717-452ec28c7814?auto=format&fit=crop&w=1600&q=88', description: 'Physical theatre practice around breath, voice, spatial awareness and ensemble presence.' },
+  { id: 'event-3', title: 'A Room of Sound', category: 'Music & Sound', date: '08 NOV 2026', time: '18:00–20:30', host: 'Ananya Rao & Sound Guild', price: '₹2,400', image: 'https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1600&q=88', description: 'A listening evening with voice, acoustic instruments, breath and sustained resonance.' },
+  { id: 'event-4', title: 'At the Shared Table', category: 'Food & Gathering', date: '15 NOV 2026', time: '18:30–21:30', host: 'The Immersion Room Kitchen', price: '₹1,800', image: 'https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1600&q=88', description: 'A communal dinner where food, conversation and unhurried time become the practice.' },
+  { id: 'event-5', title: 'Meet the Makers', category: 'Pop-ups & Markets', date: '22 NOV 2026', time: '11:00–17:00', host: 'Local makers & friends', price: 'Free', image: 'https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=1600&q=88', description: 'A weekend gathering of independent makers, objects, material stories and slow browsing.' },
+  { id: 'event-6', title: 'The Open Circle', category: 'Community & Connection', date: '29 NOV 2026', time: '17:30–20:00', host: 'The Room', price: 'Free', image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1600&q=88', description: 'An open evening for conversation, improvisation, shared music and whatever the room wants to become.' },
+];
